@@ -13,7 +13,7 @@ public class Temperature_converter {
 	int ans = scan.nextInt();
 	if (ans == 1) {
 		float value1 = (float) ((value*(1.8))+32);
-		System.out.println("Your conversion is here.. "+value1+"�F");
+		System.out.println("Your conversion is here.. "+value1+"ºF");
 		}
 	if (ans == 2) {
 			float value2 = (float) (value-32);
